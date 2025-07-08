@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.env.*
+*.env
+
+# venv
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+
+# VSCode
+.vscode/
+
+# Ruff cache
+.cache/
+
+# Django
+db.sqlite3
+*.db
+media/
+staticfiles/
+local_settings.py
+
+# mypy, pyright, pytest, coverage, etc.
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.pyre/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# System
+.DS_Store
+Thumbs.db

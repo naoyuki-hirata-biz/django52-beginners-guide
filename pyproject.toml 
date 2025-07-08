@@ -1,0 +1,6 @@
+# pyproject.toml
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+select = ["E", "F", "I"]  # E: pycodestyle, F: pyflakes, I: import sort
+exclude = ["migrations", "__pycache__"]
